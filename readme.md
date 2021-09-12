@@ -1,6 +1,6 @@
-# Using APIs DEMO
+# Using Mongoose DEMO
 
-This is a sample repo for using APIs in Node.js applications created by [Mukul Saini](https://github.com/thisismemukul). It is for beginners looking to get started quickly on a new API project using the Node.js environment.
+This is a sample repo for using Mongoose in Node.js applications created by [Mukul Saini](https://github.com/thisismemukul). It is for beginners looking to get started quickly on a new MongoDB project using the Node.js environment.
 
 - [Installation Guide](#installation-guide) - How to get started with a new API Node.js app
 
@@ -10,17 +10,17 @@ This project requires the following tools:
 
 - [Node.js](https://nodejs.org/en/) - The JavaScript environment for server-side code.
 - [NPM](https://www.npmjs.com/) - A Node.js package manager used to install dependencies.
-- [API](https://jsonplaceholder.typicode.com/users/1) - An Open Source APIs.
+- [MongoDB](https://mongodb.com) - Download and install MongoDB from here.
 
-To get started, install NPM and NodeJS on your local computer if you don't have them already.
+To get started, install NPM, MongoDB and NodeJS on your local computer if you don't have them already.
 
 ## Getting Started
 
 **Step 1. Clone the code into a fresh folder**
 
 ```
-$ git clone https://github.com/thisismemukul/API-s.git
-$ cd API-s
+$ git clone https://github.com/thisismemukul/Databases-Getting-Started-With-Mongoose.git
+$ cd Databases-Getting-Started-With-Mongoose
 ```
 
 **Step 2. Install Dependencies.**
@@ -33,7 +33,7 @@ $ npm init
 # What's Included?
 
 - [Express](https://expressjs.com/) - A minimal web framework for Node.js web applications
-- [request](https://www.npmjs.com/package/request) - Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.
+- [Mongoose](https://www.npmjs.com/package/mongoose) - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
 
 
 **Step 3. Install Package.**
@@ -41,14 +41,14 @@ $ npm init
 Next, we need to install the request package, which is listed in `package.json`.
 
 ```
-$ npm install request
+$ npm install mongoose --save
 ```
 
 # License
 
 The Hackathon Starter Kit is open source software [licensed as MIT][mlh-license].
 
-[mlh-license]: https://github.com/thisismemukul/API-s/blob/main/LICENSE.md
+[mlh-license]: https://github.com/thisismemukul/Databases-Getting-Started-With-Mongoose/blob/main/LICENSE.md
 
 ============================================================================
 
